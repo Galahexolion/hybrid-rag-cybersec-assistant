@@ -1,0 +1,21 @@
+# Python aplinka
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# API raktai ir aplinkos kintamieji (BŪTINA!)
+.env
+
+# Dideli duomenų ir FAISS failai
+*.pdf
+*.json
+*.faiss
+*.pkl
+vektorine_baze/
+data/
+
+# IDE konfigūracijos
+.vscode/
+.idea/
