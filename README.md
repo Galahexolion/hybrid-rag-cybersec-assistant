@@ -1,6 +1,6 @@
 # Hybrid RAG Cybersecurity Assistant
 
-Šis projektas yra magistro baigiamojo darbo metu sukurta hibridinė *Retrieval-Augmented Generation* (RAG) sistema, skirta kibernetinio saugumo konsultacijų automatizavimui. Sistema integruoja nestruktūrizuotus PDF dokumentus ir struktūrizuotus JSON (CVE) pažeidžiamumų įrašus, užtikrindama duomenų privatumą veikiant lokalioje infrastruktūroje.
+Šis projektas yra magistro baigiamojo darbo metu sukurta hibridinė *Retrieval-Augmented Generation* (RAG) sistema, skirta kibernetinio saugumo konsultacijų automatizavimui. Sistema integruoja nestruktūrizuotus PDF dokumentus ir struktūrizuotus JSON (CVE) pažeidžiamumų įrašus, užtikrindama duomenų privatumą veikiant lokalioje aplinkoje.
 
 ## Pagrindinės funkcijos
 * **Hibridinė paieška:** Semantinė paieška (FAISS) derinama su struktūrizuotais techniniais duomenimis (CVE).
