@@ -37,6 +37,7 @@
 * Python 3.10+
 * Nvidia GPU (Rekomenduojama bent 8 GB VRAM)
 * CUDA Toolkit v12.8+
+* Hugging Face token'as
 
 ## Diegimas
 
