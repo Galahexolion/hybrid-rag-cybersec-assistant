@@ -1,0 +1,362 @@
+[
+  {
+    "klausimas": "What is a DDoS (Distributed Denial-of-Service) attack and what is its main goal?",
+    "gautas_atsakymas": "A DDoS (Distributed Denial-of-Service) attack is a type of cyber attack where multiple compromised systems, often referred to as bots or zombies, are used to target and flood a network, server, or website with traffic. The main goal of a DDoS attack is to make the targeted service unavailable to its intended users by overwhelming it with traffic or other types of requests. This can result in downtime, lost productivity, and potential revenue loss.",
+    "gauti_saltiniai": [
+      "duomenys\\2502.19621v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2412.20154v1.pdf",
+      "duomenys\\2501.14311v1.pdf"
+    ],
+    "trukme_sek": 6.45
+  },
+  {
+    "klausimas": "What are the main strategies and technologies used to protect against DDoS attacks?",
+    "gautas_atsakymas": "The main strategies and technologies used to protect against DDoS attacks include:\n\n1. Machine Learning Algorithms: These are used for detecting anomalies in network traffic and identifying potential DDoS threats in real-time.\n2. Blockchain Technology: Its decentralized and tamper-proof architecture offers enhanced access control and secure data storage.\n3. Edge Computing: It helps localize threat detection and mitigation, reducing the latency associated with cloud-based security measures.\n\nMachine learning algorithms are particularly effective due to their ability to learn and adapt to new threats. They can be used to detect anomalies in network traffic and identify potential DDoS threats in real-time.\n\nBlockchain technology is another promising solution due to its decentralized and tamper-proof architecture. It offers enhanced access control and secure data storage, making it difficult for attackers to launch successful DDoS attacks.\n\nEdge computing is also useful as it can help localize threat detection and mitigation, reducing the latency associated with cloud-based security measures.\n\nThese strategies and technologies are essential for protecting against DDoS attacks, especially as they continue to evolve and become more sophisticated.",
+    "gauti_saltiniai": [
+      "duomenys\\2501.14311v1.pdf",
+      "duomenys\\2501.07703v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2503.17867v1.pdf"
+    ],
+    "trukme_sek": 14.74
+  },
+  {
+    "klausimas": "Compare the operating principles of stateless and stateful firewalls.",
+    "gautas_atsakymas": "Stateless firewalls operate based on rules that examine individual network packets without considering the context or sequence of previous packets. They make decisions solely based on the current packet's information. This approach has limitations, such as missing malicious intent dispersed across benign-looking interactions and over-flagging complex multi-step legitimate queries.\n\nOn the other hand, stateful firewalls maintain a state table to keep track of the connections between network devices. They consider the context and sequence of previous packets to make more informed decisions. Stateful firewalls can handle more complex scenarios and provide better protection against certain types of attacks compared to stateless firewalls. However, they require more computational resources and have higher latency due to the need to maintain and update the state table.\n\nIn the context provided, the authors are discussing a solution to improve the effectiveness of firewalls by addressing the limitations of stateless firewalls using a system called \"agents that resolve the sequential-blindness limitation\". This system aims to combine the advantages of both stateless and stateful firewalls while minimizing their disadvantages.",
+    "gauti_saltiniai": [
+      "duomenys\\2604.26274v1.pdf",
+      "duomenys\\2505.01436v1.pdf",
+      "duomenys\\2205.04210v1.pdf",
+      "duomenys\\2604.27861v1.pdf",
+      "duomenys\\2604.26274v1.pdf"
+    ],
+    "trukme_sek": 13.55
+  },
+  {
+    "klausimas": "What are the main types of VPN protocols (e.g., OpenVPN, IPsec) and what are their pros and cons?",
+    "gautas_atsakymas": "The main types of VPN protocols include OpenVPN, IPsec, and Point-to-Point Tunneling Protocol (PPTP).\n\nOpenVPN is an open-source, secure, and highly configurable VPN solution that uses SSL/TLS for encryption. Its advantages include strong security, flexibility, and compatibility with various platforms and devices. However, it requires more resources and setup time compared to other VPN protocols.\n\nIPsec (Internet Protocol Security) is a suite of protocols that provides secure communication at the IP layer. It offers strong security, fast performance, and supports both authentication and encryption. However, it can be complex to configure and may require additional setup steps.\n\nPPTP is an older VPN protocol that is known for its simplicity and ease of use. It is widely supported by various devices and operating systems. However, it lacks the security features of modern VPN protocols like OpenVPN and IPsec, making it less suitable for securing sensitive information.\n\nIn summary, OpenVPN offers strong security and flexibility, IPsec provides fast performance and robust security, and PPTP is simple and easy to use but less secure.",
+    "gauti_saltiniai": [
+      "duomenys\\2504.19069v1.pdf",
+      "duomenys\\2504.19069v1.pdf",
+      "duomenys\\2410.08737v1.pdf",
+      "duomenys\\2410.08737v1.pdf",
+      "duomenys\\2406.13017v1.pdf"
+    ],
+    "trukme_sek": 14.32
+  },
+  {
+    "klausimas": "Describe the role of an Intrusion Detection System (IDS) in network security architecture.",
+    "gautas_atsakymas": "An Intrusion Duration System (IDS) is a critical component of network security architecture. Its primary role is to monitor network traffic and system activities for malicious activities or policy violations. When an IDS identifies a potential threat, it generates an alert to a concerned stakeholder in the organization. IDSs can operate at both the host level (Host-based IDS, HIDS) and the network level (Network-based IDS, NIDS). They provide monitoring and visibility into the network's security posture and help minimize the risk of intentional harm, service degradation, and monetary loss. Modern IDSs often leverage AI/ML techniques to identify anomalous traffic patterns and hidden threats in large, complex datasets. These systems play a vital role in enabling real-time monitoring of network data from diverse sources and gaining valuable insights for network security management.",
+    "gauti_saltiniai": [
+      "duomenys\\2506.07480v1.pdf",
+      "duomenys\\2502.06688v3.pdf",
+      "duomenys\\2502.19621v1.pdf",
+      "duomenys\\2502.21286v1.pdf",
+      "duomenys\\2505.11551v1.pdf"
+    ],
+    "trukme_sek": 10.82
+  },
+  {
+    "klausimas": "What are the main types of SQL injection attacks?",
+    "gautas_atsakymas": "The main types of SQL injection attacks include Tautology, Illegal Incorrect Query, Union Query, Piggy-Back Query, Stored Procedure, and others [22]. These types realize different attack intentions. However, the text focuses on backdoor attacks on Text-to-SQL models, which are particularly stealthy and dangerous due to their ability to bypass traditional validation mechanisms and execute the payload at a later stage. Backdoor attacks on Text-to-SQL models are a significant challenge due to ensuring SQL executability, maintaining model performance, and robustness against obfuscation and zero-days threats. Information not found in the provided context about specific SQL injection techniques or countermeasures beyond traditional coding practices and signature-based detection systems.",
+    "gauti_saltiniai": [
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2502.04786v1.pdf",
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2512.23610v2.pdf"
+    ],
+    "trukme_sek": 9.55
+  },
+  {
+    "klausimas": "Explain how a buffer overflow attack works technically.",
+    "gautas_atsakymas": "A buffer overflow attack is a type of software vulnerability where an attacker sends more data to a program than the intended buffer size can hold. This results in the data being written outside the buffer, overwriting adjacent memory locations. Here's a simplified explanation of how it works:\n\n1. **Identifying the Vulnerability**: An attacker first identifies a vulnerable program that has a buffer overflow vulnerability. This could be due to incorrect validation of user input or lack of proper bounds checking during data copying.\n\n2. **Preparing the Payload**: The attacker then crafts a specially designed input, called a payload, which is larger than the intended buffer size. This payload contains malicious code that the attacker intends to execute once the buffer overflows.\n\n3. **Triggering the Overflow**: The attacker sends this payload to the vulnerable program, causing it to write data beyond the buffer's end. This overwriting of memory can lead to various outcomes, including program crashes, data leaks, or even arbitrary code execution.\n\n4. **Controlling Program Flow**: Once the attacker has successfully overwritten memory, they can manipulate the program's control flow. They do this by changing the contents of key memory locations, such as function pointers or return addresses, to point to their own malicious code.\n\n5. **Executing the Malicious Code**: With control flow now in their hands, the attacker can execute their malicious code. This could include anything from stealing sensitive information to installing malware or taking complete control of the system.\n\nRemember, this is a simplified explanation. Real-world attacks can be much more complex and require a deep understanding of assembly language and operating systems.",
+    "gauti_saltiniai": [
+      "duomenys\\2504.15867v1.pdf",
+      "duomenys\\2411.10855v2.pdf",
+      "duomenys\\2411.10855v2.pdf",
+      "duomenys\\2411.16518v1.pdf",
+      "duomenys\\2411.10855v2.pdf"
+    ],
+    "trukme_sek": 21.01
+  },
+  {
+    "klausimas": "What are the most effective programming practices to prevent SQL injection vulnerabilities?",
+    "gautas_atsakymas": "The most effective programming practices to prevent SQL injection vulnerabilities include:\n\n1. Input Validation: Validate user inputs before they are processed or sent to the database. This includes checking for expected data types, length, and format.\n\n2. Parameterized Queries: Use parameterized queries instead of dynamic queries. Parameterized queries use placeholders for user inputs and automatically handle escaping and type conversion, preventing injection attacks.\n\n3. Stored Procedures: Use stored procedures instead of inline SQL statements. Stored procedures are precompiled and do not allow direct user input, reducing the risk of injection attacks.\n\n4. Prepared Statements: Use prepared statements instead of normal statements. Prepared statements compile the SQL statement and the parameters separately, ensuring that the parameters are treated as data rather than code.\n\n5. Least Privilege Principle: Ensure that database users have the least privilege necessary to perform their tasks. This limits the damage that can be caused if an attack does occur.\n\n6. Encoding: Properly encode user inputs to prevent special characters from being interpreted as SQL commands.\n\n7. Regular Updates: Keep your software up-to-date to protect against known vulnerabilities.\n\n8. Education and Training: Educate developers about SQL injection vulnerabilities and how to prevent them.\n\nIn the context provided, the focus is on the use of parameterized queries and the construction of SafeSQL dataset for SQL injection vulnerabilities. These practices are effective in preventing SQL injection attacks by automatically handling escaping and enforcing correct data types.",
+    "gauti_saltiniai": [
+      "duomenys\\2502.04786v1.pdf",
+      "duomenys\\2505.22704v1.pdf",
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2505.22704v1.pdf",
+      "duomenys\\2505.22704v1.pdf"
+    ],
+    "trukme_sek": 19.1
+  },
+  {
+    "klausimas": "What are the main phases of the Secure Software Development Life Cycle (Secure SDLC)?",
+    "gautas_atsakymas": "The Secure Software Development Life Cycle (Secure SDLC) is a methodology for designing, creating, and maintaining software with an emphasis on security. It builds upon a standard software development life cycle and adds secure software development practices. The main phases of Secure SDLC are:\n\n1. Planning: In this phase, security requirements are identified and documented. Threat modeling is performed to understand potential risks and vulnerabilities.\n\n2. Design: Security considerations are incorporated into the design of the software. Architectural patterns and designs are chosen to support security goals.\n\n3. Implementation: Secure coding practices are followed during the implementation phase. This includes using secure libraries and frameworks, and writing code that is free from known vulnerabilities.\n\n4. Verification: In this phase, the software is tested for security vulnerabilities. This includes performing static analysis, dynamic analysis, and penetration testing.\n\n5. Maintenance: Once the software is deployed, it needs to be maintained and updated to ensure that any new vulnerabilities are addressed promptly. This includes applying security patches and conducting regular security assessments.\n\n6. Retirement: Eventually, all software reaches the end of its life cycle and needs to be retired. Proper decommissioning procedures must be followed to ensure that data is securely destroyed and no vulnerabilities are left behind.\n\nInformation not found in the provided context: The specific secure software development practices mentioned in the context, such as those from BSA, OWASP, and SAFECode, are not detailed in the provided context.",
+    "gauti_saltiniai": [
+      "duomenys\\NIST.SP.800-214.pdf",
+      "duomenys\\NIST.SP.800-211.pdf",
+      "duomenys\\NIST.SP.800-220.pdf",
+      "duomenys\\NIST.SP.800-214.pdf",
+      "duomenys\\2506.02043v1.pdf"
+    ],
+    "trukme_sek": 18.72
+  },
+  {
+    "klausimas": "What is a zero-day vulnerability?",
+    "gautas_atsakymas": "A zero-day vulnerability is a weakness in a software or system that is unknown to the public, including the software vendor. Hackers can exploit these vulnerabilities without any patch or fix available, making them particularly dangerous as they can be used to spread malware, steal sensitive data, or gain unauthorized access to systems. Zero-day vulnerabilities can exist in various types of software, including operating systems, applications, and firmware. They are called 'zero-day' because they are discovered 'on day zero' – the first day that the vulnerability is made known to the public.",
+    "gauti_saltiniai": [
+      "duomenys\\2512.23610v2.pdf",
+      "duomenys\\2505.22023v1.pdf",
+      "duomenys\\2506.02035v1.pdf",
+      "duomenys\\2502.03614v1.pdf",
+      "duomenys\\2506.02043v1.pdf"
+    ],
+    "trukme_sek": 7.72
+  },
+  {
+    "klausimas": "What is ransomware and what are its propagation methods?",
+    "gautas_atsakymas": "Ransomware is a type of malware that infects a computer system, encrypts files, and demands a ransom payment from the victim to restore access to the encrypted data. The payment is typically required in the form of cryptocurrency.\n\nRansomware propagation methods include:\n1. Phishing emails: Cybercriminals send emails containing malicious attachments or links to unsuspecting victims. Once clicked, the attachment or link downloads and installs the ransomware.\n2. Exploiting vulnerabilities: Ransomware can exploit known vulnerabilities in software or operating systems to gain entry into a system.\n3. Drive-by downloads: Visiting compromised websites can result in the automatic download and installation of ransomware.\n4. Remote Desktop Protocol (RDP): Attackers can gain access to a system through an unsecured RDP connection and install ransomware.\n5. Social engineering: Attackers manipulate users into divulging sensitive information or clicking on malicious links or attachments.\n6. Supply chain attacks: Ransomware can be introduced into an organization's network through third-party vendors or suppliers.\n7. Exploiting zero-day vulnerabilities: Ransomware can take advantage of newly discovered vulnerabilities for which no patch exists yet.\n\nReferences:\n[1] NIST Special Publication 800-181: Guide to Identifying and Mitigating Advanced Persistent Threats (APTs)\n[2] NIST SP 800-37 Rev. 1: Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach\n[3] NIST SP 800-101 Rev. 1: Guidelines on Mobile Device Forensics\n[4] NIST SP 800-61 Rev. 2: Computer Security Incident Handling Guide\n[5] NIST SP 800-158: Guide to Protecting Against Malware for ICS\n[6] NIST SP 800-171: Protecting Controlled Unclassified Information in Nonfederal Information Systems and Organizations\n[7] NIST SP 800-34 Rev. 1: Controlling Access Based on",
+    "gauti_saltiniai": [
+      "duomenys\\2504.20681v1.pdf",
+      "duomenys\\2502.08843v1.pdf",
+      "duomenys\\2504.20681v1.pdf",
+      "duomenys\\2504.20681v1.pdf",
+      "duomenys\\NIST.SP.800-220.pdf"
+    ],
+    "trukme_sek": 28.29
+  },
+  {
+    "klausimas": "Describe the main stages of a phishing attack from sending an email to achieving the goal.",
+    "gautas_atsakymas": "A phishing attack typically involves several stages from sending an email to achieving the attacker's goal. Here's a description of these stages based on the context provided:\n\n1. Reconnaissance: Attackers gather information about the security systems in place and identify potential targets.\n2. Harvesting: Attackers collect email addresses, conference data, or any other relevant information to use in their phishing campaign.\n3. Intrusion: Attackers attempt to gain access to the network by injecting malware or exploiting vulnerabilities.\n4. Scripting and Job Scheduling: Once they have access, attackers try to get additional permissions or privileges to accounts and systems.\n5. Privilege Escalation: The attacker manipulates access tokens or attempts lateral movement to access critical information assets.\n6. Manipulation: The attacker uses various techniques to manipulate the user into clicking on a malicious link or providing sensitive information.\n7. Exfiltration: After gaining access to the system, the attacker exfiltrates data, often through methods like SSH hijacking or obfuscation.\n8. Obfuscation: In this stage, the attacker covers their tracks by using encryption, steganography, or other methods to hide their presence.\n\nThese stages represent a general flow of a phishing attack, although the specific tactics and techniques used can vary greatly depending on the attacker's goals and resources.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.21141v1.pdf",
+      "duomenys\\2504.18636v1.pdf",
+      "duomenys\\2502.19621v1.pdf",
+      "duomenys\\2502.19621v1.pdf",
+      "duomenys\\2506.06180v1.pdf"
+    ],
+    "trukme_sek": 18.16
+  },
+  {
+    "klausimas": "What is the difference between static and dynamic malware analysis?",
+    "gautas_atsakymas": "Static analysis is the process of examining a malware sample without running it. It analyzes the internal structure of the code, such as embedded strings, file headers, and binary patterns, to distill useful information for early detection. Dynamic analysis, on the other hand, monitors malware behavior when it is operating in a controlled or sandboxed environment. Analysts can use this to watch how the operating system is affected by the malicious code, what it alters, and what external connections it tries to make. While static analysis is useful for understanding the structure and potential threats of malware, dynamic analysis provides valuable insights into the malware's goals and potential destruction by observing its behavior in real-time.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2505.24231v1.pdf",
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2505.21725v1.pdf"
+    ],
+    "trukme_sek": 9.06
+  },
+  {
+    "klausimas": "What is a computer virus and how does it differ from a worm?",
+    "gautas_atsakymas": "A computer virus is a type of malware that attaches itself to a valid file or document. When the infected file is opened, the virus code is triggered, allowing it to replicate and spread to other files and systems. It requires a user action, like opening an email attachment or running an infected file, to spread. On the other hand, a worm is a self-replicating malware program that spreads autonomously over a network. It doesn't need a user to open an infected file; it exploits vulnerabilities in network protocols or software to move from one system to another. While viruses can cause harm by corrupting or destroying files, worms can overwhelm networks and slow down system performance.",
+    "gauti_saltiniai": [
+      "duomenys\\2506.01412v1.pdf",
+      "duomenys\\2504.14886v1.pdf",
+      "duomenys\\2506.01412v1.pdf",
+      "duomenys\\2505.22220v1.pdf",
+      "duomenys\\2505.22220v1.pdf"
+    ],
+    "trukme_sek": 9.21
+  },
+  {
+    "klausimas": "Explain what a keylogger is and what threat it poses.",
+    "gautas_atsakymas": "A keylogger is a type of malicious software or malware that records every keystroke made on an infected computer's keyboard. The recorded data can include sensitive information like passwords, credit card numbers, and other confidential data. The threat posed by a keylogger is significant because it allows unauthorized individuals to gain access to sensitive information, potentially leading to identity theft, financial loss, or other forms of cybercrime. Additionally, keyloggers can be used to steal login credentials for various online services, allowing attackers to take control of accounts and cause further damage.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2506.03656v1.pdf",
+      "duomenys\\2506.03656v1.pdf",
+      "duomenys\\2505.21725v1.pdf"
+    ],
+    "trukme_sek": 7.4
+  },
+  {
+    "klausimas": "What is the Severity level and CVSS score of the CVE-2024-1234 vulnerability?",
+    "gautas_atsakymas": "Information not found in the provided context.",
+    "gauti_saltiniai": [
+      "cve_data.json",
+      "cve_data.json",
+      "cve_data.json",
+      "cve_data.json",
+      "cve_data.json"
+    ],
+    "trukme_sek": 1.09
+  },
+  {
+    "klausimas": "Which software is affected by CVE-2023-9876 and what technical attack type is mentioned there?",
+    "gautas_atsakymas": "Information not found in the provided context. The context only mentions CVE-2023-64573, CVE-2023-95374, and CVE-2022-27678, along with their respective vulnerability descriptions and severity levels. There is no mention of CVE-2023-9876 or its attack type.",
+    "gauti_saltiniai": [
+      "cve_data.json",
+      "cve_data.json",
+      "cve_data.json",
+      "duomenys\\2411.11929v1.pdf",
+      "cve_data.json"
+    ],
+    "trukme_sek": 5.88
+  },
+  {
+    "klausimas": "How can the CVE-2024-5555 vulnerability be exploited in the UserForum 3.2 system and what threat does it pose to user sessions?",
+    "gautas_atsakymas": "The CVE-2024-5555 vulnerability is a Cross-Site Scripting (XSS) issue in the UserForum 3.2 system. An attacker can exploit this vulnerability by injecting malicious scripts into the application through user input fields. Once executed, these scripts can steal session cookies from the affected user's browser. This poses a significant threat because session cookies contain authentication information, allowing an attacker to impersonate the user and gain unauthorized access to their account. Additionally, the stolen session cookies can be used to perform actions on behalf of the user, such as posting malicious content or modifying settings. Therefore, it is crucial to apply patches or updates to fix this vulnerability as soon as possible to prevent potential attacks.",
+    "gauti_saltiniai": [
+      "cve_data.json",
+      "duomenys\\2502.12497v1.pdf",
+      "duomenys\\2502.12497v1.pdf",
+      "duomenys\\2502.12497v1.pdf",
+      "duomenys\\2505.12153v1.pdf"
+    ],
+    "trukme_sek": 9.82
+  },
+  {
+    "klausimas": "Compare symmetric and asymmetric encryption. What are their main differences?",
+    "gautas_atsakymas": "Symmetric encryption and asymmetric encryption are two types of encryption methods used to secure data. Here's a comparison of their main differences based on the context provided:\n\n1. Key Usage: In symmetric encryption, the same key is used for both encryption and decryption. This means that before data can be encrypted and sent to the recipient, the sender and recipient must agree on a secret key and securely exchange it. In contrast, asymmetric encryption uses a pair of keys - a public key for encryption and a private key for decryption. The public key can be freely shared, while the private key is kept secret.\n\n2. Security and Complexity: Symmetric encryption is generally faster and uses fewer resources than asymmetric encryption because it only requires one key. However, the need to securely exchange the secret key between the sender and recipient makes it less secure compared to asymmetric encryption. Asymmetric encryption, on the other hand, is more complex due to the use of a key pair, but it eliminates the need for a secure key exchange.\n\n3. Digital Signatures and Scalability: Asymmetric encryption supports digital signatures, which can be used for authentication and key management. This feature is particularly relevant for SNNs, where protecting data integrity and intellectual property is important. Additionally, asymmetric encryption allows for scalability in large systems, as each user can have their own unique public-private key pair.\n\nIn summary, symmetric encryption is simpler, faster, and uses fewer resources, but it requires a secure key exchange between the sender and recipient. Asymmetric encryption is more complex, but it eliminates the need for a secure key exchange and supports digital signatures, making it more suitable for securing large systems and protecting data integrity.",
+    "gauti_saltiniai": [
+      "duomenys\\2510.19537v3.pdf",
+      "duomenys\\2510.19537v3.pdf",
+      "duomenys\\2602.12398v1.pdf",
+      "duomenys\\2602.12398v1.pdf",
+      "duomenys\\2602.12398v1.pdf"
+    ],
+    "trukme_sek": 21.01
+  },
+  {
+    "klausimas": "What is a Man-in-the-Middle (MitM) attack and what methods are used to detect it?",
+    "gautas_atsakymas": "A Man-in-the-Middle (MitM) attack is a type of cyber attack where an intruder intercepts communications between two parties to eavesdrop or manipulate traffic remotely. This is done by positioning themselves between the two communicating parties and intercepting, reading, and modifying the information being transmitted.\n\nTo detect MitM attacks, there are several methods that can be used:\n\n1. Certificate Pinning: This involves associating a specific digital certificate with a particular website or server. When a connection is established, the certificate presented by the server is checked against the one that was expected. If they don't match, it could indicate a MitM attack.\n\n2. Secure Sockets Layer (SSL)/Transport Layer Security (TLS) Inspection: SSL/TLS inspection involves examining the encrypted traffic to ensure that it conforms to known secure standards. Any deviations from these standards could indicate a MitM attack.\n\n3. Traffic Analysis: Analyzing the patterns and content of network traffic can help identify signs of a MitM attack, such as unexpected changes in traffic volume, unusual request types, or anomalous response times.\n\n4. Time Synchronization: Ensuring that all devices involved in a communication have synchronized time can help prevent MitM attacks, as an attacker would need to maintain control over both ends of the communication to keep the time synchronized.\n\n5. Two-Factor Authentication: Implementing two-factor authentication can add an extra layer of security, making it harder for an attacker to gain access to a system even if they successfully carry out a MitM attack.\n\nIn the context provided, the adversary A is carrying out a MitM attack by providing a deceptive API service that intercepts the user's requests to the legitimate LLM provider and relays the responses back to the user. The user believes they are interacting with a legitimate LLM API service, while in reality, the adversary is intercepting and manipulating the traffic.",
+    "gauti_saltiniai": [
+      "duomenys\\2502.20589v1.pdf",
+      "duomenys\\2502.21286v1.pdf",
+      "duomenys\\2506.03656v1.pdf",
+      "duomenys\\2506.03656v1.pdf",
+      "duomenys\\2506.03656v1.pdf"
+    ],
+    "trukme_sek": 24.8
+  },
+  {
+    "klausimas": "Explain what Social Engineering is in cybersecurity and provide examples.",
+    "gautas_atsakymas": "Social Engineering is a type of cyber attack that exploits human vulnerabilities rather than technological loopholes. It involves manipulating individuals into divulging confidential information or performing actions that could compromise the security of a system or network. Examples of social engineering attacks include phishing attacks, where attackers use deceptive emails, messages, or fake websites to trick users into disclosing sensitive information like passwords or credit card numbers. Another example is pretexting, where an attacker poses as a trustworthy entity to gain access to sensitive information or perform unauthorized actions. Social engineering can also involve physical means, such as dumpster diving or tailgating, to obtain confidential information. In the context of the provided text, social engineering is mentioned as a primary method by which companies are attacked and breached.",
+    "gauti_saltiniai": [
+      "duomenys\\NIST.SP.800-214.pdf",
+      "duomenys\\2503.22710v1.pdf",
+      "duomenys\\2604.26394v1.pdf",
+      "duomenys\\2502.19621v1.pdf",
+      "duomenys\\2402.01012v1.pdf"
+    ],
+    "trukme_sek": 10.02
+  },
+  {
+    "klausimas": "What are the core principles defining Zero Trust architecture?",
+    "gautas_atsakymas": "The core principles defining Zero Trust architecture include:\n1. Least Privilege Access (LPA): This principle is about granting the minimum level of access necessary to perform a specific task.\n2. Continuous Verification: This principle involves constantly checking the identity and behavior of users, devices, applications, and transactions to ensure they are authorized and behaving as expected.\n3. Data Confidentiality and Integrity: This principle focuses on protecting data from unauthorized access and ensuring its integrity.\n4. Behavioral Analytics: This principle involves monitoring and analyzing the behavior of users, devices, applications, and transactions to detect anomalous activity that could indicate a threat.",
+    "gauti_saltiniai": [
+      "duomenys\\NIST.SP.800-220.pdf",
+      "duomenys\\2505.23792v1.pdf",
+      "duomenys\\NIST.SP.800-214.pdf",
+      "duomenys\\NIST.SP.800-220.pdf",
+      "duomenys\\NIST.SP.800-211.pdf"
+    ],
+    "trukme_sek": 8.52
+  },
+  {
+    "klausimas": "Describe the difference between Black-box and White-box penetration testing.",
+    "gautas_atsakymas": "In penetration testing, there are two main approaches: Black-box testing and White-box testing.\n\nBlack-box testing, also known as blind testing or external testing, is a method where the tester does not have any prior knowledge of the target system. The tester simulates an attack from an external perspective, just like a malicious hacker would. This approach helps in identifying vulnerabilities that are visible or exploitable from outside. Tools used in black-box testing include Dynamic Application Security Testing (DAST), which evaluates web applications through an external perspective.\n\nOn the other hand, White-box testing, also known as clear-box testing or internal testing, is a method where the tester has prior knowledge of the target system. This includes the application's source code, design, and architecture. With this in-depth knowledge, the tester can assess the system more thoroughly, focusing on vulnerabilities that might not be apparent from an external perspective.\n\nThe main difference between the two lies in the level of information available to the tester. In black-box testing, the tester works with minimal information about the target system, while in white-box testing, the tester has full access to the system's inner workings. Each approach has its advantages and disadvantages, and organizations often use both methods to ensure comprehensive security testing.",
+    "gauti_saltiniai": [
+      "duomenys\\2501.05907v1.pdf",
+      "duomenys\\2506.02660v1.pdf",
+      "duomenys\\2604.27487v1.pdf",
+      "duomenys\\2604.28157v1.pdf",
+      "duomenys\\2604.28157v1.pdf"
+    ],
+    "trukme_sek": 16.58
+  },
+  {
+    "klausimas": "What is a botnet and how is it used in cyber attacks?",
+    "gautas_atsakymas": "A botnet is a network of compromised devices, referred to as bots, which are remotely controlled by a threat actor. The primary use of a botnet is to perform large-scale malicious attacks, such as sending spam emails, distributing other malware, and launching Distributed Denial of Service (DDoS) attacks. The collective computing power of the compromised devices is harnessed for illicit purposes. Botnets can also be used to harvest personal data or facilitate large-scale cybercrime operations.",
+    "gauti_saltiniai": [
+      "duomenys\\2504.14886v1.pdf",
+      "duomenys\\2504.14886v1.pdf",
+      "duomenys\\NIST.SP.800-220.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2504.14886v1.pdf"
+    ],
+    "trukme_sek": 7.1
+  },
+  {
+    "klausimas": "Explain how a Cross-Site Request Forgery (CSRF) vulnerability works in web applications.",
+    "gautas_atsakymas": "A Cross-Site Request Forgery (CSRF) vulnerability occurs when a malicious website tricks a user's web browser into making unintended requests to a targeted website. This is done by exploiting the trust relationship between the user and the targeted website. When a user logs into a web application, a cookie is stored in the user's browser, allowing the application to maintain the user's authenticated state. In a CSRF attack, the malicious website uses this cookie to make requests to the targeted website on behalf of the user. These requests can result in unintended actions, such as data modification or account manipulation. The user remains unaware of these actions because they are initiated from the malicious website, not directly from the targeted website. To protect against CSRF attacks, web applications typically implement various security measures, such as using unique tokens for each request or implementing the Same Origin Policy (SOP) to restrict access to resources based on the origin of the request.",
+    "gauti_saltiniai": [
+      "duomenys\\2402.01012v1.pdf",
+      "duomenys\\2304.14451v1.pdf",
+      "duomenys\\2402.01012v1.pdf",
+      "duomenys\\2402.01012v1.pdf",
+      "duomenys\\2402.01012v1.pdf"
+    ],
+    "trukme_sek": 12.01
+  },
+  {
+    "klausimas": "What is the difference between Authentication and Authorization?",
+    "gautas_atsakymas": "Authentication and authorization are two distinct concepts in the field of computer security.\n\nAuthentication is the process of verifying the identity of a user, device, or system. It involves presenting credentials, such as a username and password, to prove one's identity. Once authentication is successful, the system grants access to the authenticated entity.\n\nAuthorization, on the other hand, is the process of granting or denying specific permissions to an authenticated entity. It determines what actions an authenticated entity is allowed to perform within a system. For example, a user who has been authenticated may be authorized to read certain files but not write to them.\n\nIn the context provided, both authentication and authorization play crucial roles in implementing a zero-trust security model. Authentication ensures that only qualified parties have access to the system, while authorization determines what specific actions they are allowed to perform.",
+    "gauti_saltiniai": [
+      "duomenys\\NIST.SP.800-211.pdf",
+      "duomenys\\2506.02035v1.pdf",
+      "duomenys\\2506.02035v1.pdf",
+      "duomenys\\2506.02035v1.pdf",
+      "duomenys\\2604.04191v1.pdf"
+    ],
+    "trukme_sek": 11.31
+  },
+  {
+    "klausimas": "What is Public Key Infrastructure (PKI) and what problem does it solve?",
+    "gautas_atsakymas": "Public Key Infrastructure (PKI) is a system that enables digital entities to establish secure communication and verify the authenticity of digital documents. It achieves this by ensuring that an entity claiming to be a website owner is legitimate and authenticated, with their digital identity bound to a cryptographic signing key. This is done through a system of notaries, known as Certificate Authorities (CAs), who issue digital certificates to parties after verifying their identity and binding a digital identity to their public key. This ensures that it remains computationally infeasible for any other party to impersonate a website or digital entity.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.14797v1.pdf",
+      "duomenys\\2604.04191v1.pdf",
+      "duomenys\\2411.16518v1.pdf",
+      "duomenys\\2411.16518v1.pdf",
+      "duomenys\\2604.04191v1.pdf"
+    ],
+    "trukme_sek": 8.07
+  },
+  {
+    "klausimas": "What are the characteristics of APT (Advanced Persistent Threat) attacks compared to regular cyber attacks?",
+    "gautas_atsakymas": "APT attacks are characterized by sophistication and a prolonged duration compared to regular cyber attacks. They are multi-layered and often remain undetected for extended periods while exfiltrating sensitive data or causing severe disruptions. An APT follows a series of phases known as the kill chain, where an attacker must complete each phase to reach their objective. Each phase includes one or more classes of threats or attacks. The APT protection market is expected to grow to over 23 billion U.S. dollars by 2028.\n\nAPT is an extended cyber-attack aimed at gaining unauthorized access to a target network or server while remaining undetected for a prolonged period. The attack progresses through a series of phases, including reconnaissance, initial compromise, command and control, lateral movement, privilege escalation, and exfiltration. Attackers employ various techniques to accomplish each phase, such as social engineering, scanning and gathering information for both host and network, using vulnerable software like Very Secure FTP Daemon (VSFTPD), and exploiting privileges.\n\nThe SCVIC-APT-2021 dataset was used to evaluate the proposed method for detecting APT attacks due to its comprehensive coverage of APT phases and its large number of features, which are crucial for assessing the effectiveness of the method in reducing the number of features used in the prediction process.",
+    "gauti_saltiniai": [
+      "duomenys\\2506.07480v1.pdf",
+      "duomenys\\2506.07480v1.pdf",
+      "duomenys\\2506.07480v1.pdf",
+      "duomenys\\2506.07480v1.pdf",
+      "duomenys\\2506.07480v1.pdf"
+    ],
+    "trukme_sek": 17.5
+  },
+  {
+    "klausimas": "How do Firewall rules work and what is the 'default deny' principle?",
+    "gautas_atsakymas": "A Firewall rule is a condition that determines whether to allow or block specific network traffic based on defined criteria. These rules are applied in order, and once a match is found, the traffic is either allowed or blocked accordingly. The rules can be based on various parameters such as IP addresses, ports, protocols, etc.\n\nThe 'default deny' principle is a security strategy where all incoming network traffic is denied unless explicitly allowed by a rule. This approach helps prevent unintended or unwanted traffic from entering a network, thus adding an extra layer of security. It's important to note that this principle should be used in combination with allowing necessary traffic to ensure proper functionality of the network.",
+    "gauti_saltiniai": [
+      "duomenys\\2205.04210v1.pdf",
+      "duomenys\\2505.01436v1.pdf",
+      "duomenys\\2205.04210v1.pdf",
+      "duomenys\\2505.01436v1.pdf",
+      "duomenys\\2505.01436v1.pdf"
+    ],
+    "trukme_sek": 9.05
+  },
+  {
+    "klausimas": "Explain the purpose of a Honeypot in an organization's security infrastructure.",
+    "gautas_atsakymas": "A Honeypot is a security resource used in an organization's security infrastructure to attract and detect unauthorized intrusions or attacks. It presents simulated or emulated environments to attackers, allowing organizations to gather detailed information about the attackers' methods, intentions, and motivations. This information can then be used to improve security measures and prevent future attacks. Honeypots are designed to be deceptive, discoverable, interactive, and monitored. They can help organizations gain early warnings of successful hacking or malware infiltration, providing valuable threat intelligence. HoneyWin, as described in the context, is a high-interaction Windows honeypot designed to mimic an enterprise IT environment, offering scalability, holistic detection capability, and real-time intrusion detection alerts.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.00465v1.pdf",
+      "duomenys\\2505.00465v1.pdf",
+      "duomenys\\2505.00465v1.pdf",
+      "duomenys\\2505.00465v1.pdf",
+      "duomenys\\2505.00465v1.pdf"
+    ],
+    "trukme_sek": 10.19
+  }
+]

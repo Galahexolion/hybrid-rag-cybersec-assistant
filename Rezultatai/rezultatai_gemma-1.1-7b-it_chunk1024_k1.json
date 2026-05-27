@@ -1,0 +1,242 @@
+[
+  {
+    "klausimas": "What is a DDoS (Distributed Denial-of-Service) attack and what is its main goal?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2502.19621v1.pdf"
+    ],
+    "trukme_sek": 0.84
+  },
+  {
+    "klausimas": "What are the main strategies and technologies used to protect against DDoS attacks?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2501.14311v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "Compare the operating principles of stateless and stateful firewalls.",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2604.26274v1.pdf"
+    ],
+    "trukme_sek": 0.39
+  },
+  {
+    "klausimas": "What are the main types of VPN protocols (e.g., OpenVPN, IPsec) and what are their pros and cons?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2504.19069v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "Describe the role of an Intrusion Detection System (IDS) in network security architecture.",
+    "gautas_atsakymas": "**Answer:** An intrusion detection systems monitors incoming  network trafic looking out fo suspicious activities by identifying abnormal pattersns indicative o possible attack attempts like Unauthorized Access",
+    "gauti_saltiniai": [
+      "duomenys\\2506.07480v1.pdf"
+    ],
+    "trukme_sek": 2.26
+  },
+  {
+    "klausimas": "What are the main types of SQL injection attacks?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2503.05445v2.pdf"
+    ],
+    "trukme_sek": 0.54
+  },
+  {
+    "klausimas": "Explain how a buffer overflow attack works technically.",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2504.15867v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "What are the most effective programming practices to prevent SQL injection vulnerabilities?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2502.04786v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "What are the main phases of the Secure Software Development Life Cycle (Secure SDLC)?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\NIST.SP.800-214.pdf"
+    ],
+    "trukme_sek": 0.45
+  },
+  {
+    "klausimas": "What is a zero-day vulnerability?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2512.23610v2.pdf"
+    ],
+    "trukme_sek": 0.36
+  },
+  {
+    "klausimas": "What is ransomware and what are its propagation methods?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2504.20681v1.pdf"
+    ],
+    "trukme_sek": 0.47
+  },
+  {
+    "klausimas": "Describe the main stages of a phishing attack from sending an email to achieving the goal.",
+    "gautas_atsakymas": "Answer:** The text does provide details about specific steps involved during various phases including Sending emails & Tricking recipients however it lacks explicit mention regarding all Stages associated within this process so I am unable extract requested data form given Context",
+    "gauti_saltiniai": [
+      "duomenys\\2505.21141v1.pdf"
+    ],
+    "trukme_sek": 2.95
+  },
+  {
+    "klausimas": "What is the difference between static and dynamic malware analysis?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2505.21725v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "What is a computer virus and how does it differ from a worm?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2506.01412v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "Explain what a keylogger is and what threat it poses.",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2505.21725v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "What is the Severity level and CVSS score of the CVE-2024-1234 vulnerability?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "cve_data.json"
+    ],
+    "trukme_sek": 0.4
+  },
+  {
+    "klausimas": "Which software is affected by CVE-2023-9876 and what technical attack type is mentioned there?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "cve_data.json"
+    ],
+    "trukme_sek": 0.4
+  },
+  {
+    "klausimas": "How can the CVE-2024-5555 vulnerability be exploited in the UserForum 3.2 system and what threat does it pose to user sessions?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "cve_data.json"
+    ],
+    "trukme_sek": 0.4
+  },
+  {
+    "klausimas": "Compare symmetric and asymmetric encryption. What are their main differences?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2510.19537v3.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "What is a Man-in-the-Middle (MitM) attack and what methods are used to detect it?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2502.20589v1.pdf"
+    ],
+    "trukme_sek": 0.53
+  },
+  {
+    "klausimas": "Explain what Social Engineering is in cybersecurity and provide examples.",
+    "gautas_atsakymas": "**Answer:** Information about social engineerinig was unfortunately omitted  from teh given text so I am unable extract requested data form it.**",
+    "gauti_saltiniai": [
+      "duomenys\\NIST.SP.800-214.pdf"
+    ],
+    "trukme_sek": 1.94
+  },
+  {
+    "klausimas": "What are the core principles defining Zero Trust architecture?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\NIST.SP.800-220.pdf"
+    ],
+    "trukme_sek": 0.36
+  },
+  {
+    "klausimas": "Describe the difference between Black-box and White-box penetration testing.",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2501.05907v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "What is a botnet and how is it used in cyber attacks?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2504.14886v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "Explain how a Cross-Site Request Forgery (CSRF) vulnerability works in web applications.",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2402.01012v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "What is the difference between Authentication and Authorization?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\NIST.SP.800-211.pdf"
+    ],
+    "trukme_sek": 0.39
+  },
+  {
+    "klausimas": "What is Public Key Infrastructure (PKI) and what problem does it solve?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2505.14797v1.pdf"
+    ],
+    "trukme_sek": 0.55
+  },
+  {
+    "klausimas": "What are the characteristics of APT (Advanced Persistent Threat) attacks compared to regular cyber attacks?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2506.07480v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "How do Firewall rules work and what is the 'default deny' principle?",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2205.04210v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  },
+  {
+    "klausimas": "Explain the purpose of a Honeypot in an organization's security infrastructure.",
+    "gautas_atsakymas": "",
+    "gauti_saltiniai": [
+      "duomenys\\2505.00465v1.pdf"
+    ],
+    "trukme_sek": 0.48
+  }
+]

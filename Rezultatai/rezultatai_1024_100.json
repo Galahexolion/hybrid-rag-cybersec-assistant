@@ -1,0 +1,182 @@
+[
+  {
+    "klausimas": "Kas yra DDoS (Distributed Denial-of-Service) ataka ir koks jos pagrindinis tikslas?",
+    "gautas_atsakymas": "DDoS (Distributed Denial-of-Service) ataka yra ciklinis, siekiamas, interneto tinklalapių sistemų atakas, kuris paskolos nežinoma, nekuriamas komputerų tinklalapiams, kurių duomenys yra paskolyti į internetą. Pagrindinis tikslas yra uždaryti, negalinti naudojantiems interneto tinklalapiams prisijungti į tinklalapius arba paskolyti jiems nežinomos duomenys, tai atkas galima paskolyti tinklalapius, sistemas arba web pagrastus, kurie yra paskolyti internetui.",
+    "gauti_saltiniai": [
+      "duomenys\\2503.17867v1.pdf_puslapis_0",
+      "duomenys\\2501.14311v1.pdf_puslapis_6",
+      "duomenys\\2501.14311v1.pdf_puslapis_0"
+    ]
+  },
+  {
+    "klausimas": "Kokios yra pagrindinės strategijos ir technologijos, naudojamos apsisaugoti nuo DDoS atakų?",
+    "gautas_atsakymas": "The primary strategies and technologies used to mitigate DDoS attacks include traffic filtering, rate limiting, load balancing, and behavior analysis using machine learning and artificial intelligence (AI). Traffic filtering involves inspecting network traffic and blocking or diverting traffic from known malicious sources. Rate limiting restricts the amount of traffic from a single source to prevent overwhelming the targeted server. Load balancing distributes traffic across multiple servers to ensure availability and prevent overload. Behavior analysis using machine learning and AI involves identifying and responding to anomalous traffic patterns and attacks in real-time. The survey discussed in the text provides an in-depth analysis of these methods and their effectiveness in detecting and mitigating DDoS attacks.",
+    "gauti_saltiniai": [
+      "duomenys\\2503.17867v1.pdf_puslapis_0",
+      "duomenys\\2501.14311v1.pdf_puslapis_6",
+      "duomenys\\2503.17867v1.pdf_puslapis_32"
+    ]
+  },
+  {
+    "klausimas": "Palyginkite „stateless“ ir „stateful“ ugniasienės (firewall) veikimo principus.",
+    "gautas_atsakymas": "Stateless ugniasienės (firewall) neleidžia iškviesti paskyros informaciją apie toks paskyros statusą, kad būtų galima ją išsaugoti. Tas paskyra tik priešingą paketą, ne iš visos serijos paketų, kurių paskyra tai paskyra. Tas yra labai efektyvus ir leidžia leidetis didelį trafiką, bet ne leidžia išsaugoti paskyras, kurių statusas paskyra paskutinį kartą paskyra. Stateful ugniasienės (firewall), baigiamas vienas iš duomenų bazės ugniasienės tipų, leidžia išsaugoti paskyras, kurių statusą paskyra paskutinį kartą paskyra. Tas leidžia išsaugoti paskyras, kurių statusas paskutinį kartą paskyra paskutinį paketą, bet mažiau leidžia leidetis didelį trafiką.Tas yra būtina informacija, kad būtų galima išsaugoti, kad įtrauktas algoritmas stateless ﬁrewall policies į Boolean expressions, kad būtų galima jas verti.",
+    "gauti_saltiniai": [
+      "duomenys\\2205.04210v1.pdf_puslapis_0",
+      "duomenys\\2205.04210v1.pdf_puslapis_0",
+      "duomenys\\2205.04210v1.pdf_puslapis_7"
+    ]
+  },
+  {
+    "klausimas": "Kokie yra pagrindiniai VPN protokolų tipai (pvz., OpenVPN, IPsec) ir kokie jų privalumai bei trūkumai?",
+    "gautas_atsakymas": "Pagrindiniai VPN protokolų tipai yra OpenVPN, IPsec ir PPTP (Point-to-Point Tunneling Protocol). OpenVPN ir IPsec suteikia saugumą prieš šifras, neperskaičiantas paskutinį paskolos kodą, o PPTP suteikia saugumą prieš šifras, paskutinį paskolos kodą perskaičiant. OpenVPN yra labiau saugumo orientuotas, o IPsec yra labiau kontroluojamas, o PPTP yra labiau leidžiamas ir leidžiamas šiais veiklėmis, kuriems PPTP yra leidžiamas. OpenVPN ir IPsec yra open source protokolai, o PPTP yra proprietary. OpenVPN ir IPsec yra labiau suteikia saugumą prieš šifras, neperskaičiantas paskutinį paskolos kodą, o PPTP yra leidžiamas šifras perskaičiant. OpenVPN yra labiau suteikia saugumą prieš šifras, neperskaičiantas paskutinį paskolos kodą, o IPsec yra labiau kontroluojamas, o PPTP yra labiau leidžiamas ir leidžiamas šiais veiklėmis, kuriems PPTP yra leidžiamas. OpenVPN yra labiau suteikia saugumą prieš šifras, neperskaičiantas paskutinį paskolos kodą, nes jis naudojasi SSL/TLS šifro, kuri yra labiau suteikia saugumą neperskaičiantas paskutinį paskolos kodą. IPsec yra labiau kontroluojamas, nes jis naudojasi IPSec šifro, kuri yra labiau kontroluojamas",
+    "gauti_saltiniai": [
+      "duomenys\\2502.20589v1.pdf_puslapis_15",
+      "duomenys\\2504.19069v1.pdf_puslapis_9",
+      "duomenys\\2406.13017v1.pdf_puslapis_11"
+    ]
+  },
+  {
+    "klausimas": "Apibūdinkite įsilaužimų aptikimo sistemos (Intrusion Detection System - IDS) vaidmenį tinklo saugumo architektūroje.",
+    "gautas_atsakymas": "Informacijos pateiktame kontekste neradau apie vaidmenį tinklo saugumo architektūroje, kuris išsilaužomas kaip intrusion detection system (IDS) vaidmenis. Kontekstas pateikiamas S. Gadepalli ir J. Rao (2021) metodologijos Explainable AI in intrusion detection systems: A survey darbose, kuriame IDS vaidmenis yra tautomačiai pateiktas kaip an essential component of network security infrastructure (p. 155). Tiekvisas kontekstas apie IDS vaidmenį yra pateiktas toje darbo metu, bet neapibrakėtai yra apie tinklo saugumo architektūrą. Darbo apibrėžimas: Gadepalli ir J. Rao (2021) metodologija Explainable AI in intrusion detection systems: A survey aprašo IDS sistemų, kuriose panaudojami tautomačiai algoritmai, ir aprašo, kaip tai gali būti sukurtai pažymėti IDS sistemų rezultatus. Darbo metu pateikiamas IDS vaidmenis kaip an essential component of network security infrastructure (p. 155). Branka Stojanović, Katharina Hofer-Schmitz, ir Ulrike Kleb (2020) darbo APT Datasets and Attack Modeling for Automated Detection Methods: A Review aprašo, kaip automatizuoti detekcijos metodai gali naudoti APT (Advanced Persistent Threat) duomenis ir modelis, kad būtų leidžiami efektyvai detekuoti intruzyvus. Hongbin Sun et al. (2024) darbo AudiTrim: A Real-time, General, Efficient, and Low-overhead Data Compaction System for Intr",
+    "gauti_saltiniai": [
+      "duomenys\\2502.03614v1.pdf_puslapis_9",
+      "duomenys\\2504.07839v2.pdf_puslapis_31",
+      "duomenys\\2502.06688v3.pdf_puslapis_37"
+    ]
+  },
+  {
+    "klausimas": "Kokie yra pagrindiniai SQL injection atakos tipai?",
+    "gautas_atsakymas": "Pagrindiniai SQL injection atakos tipai yra Tautology, Illegal Incorrect Query, Union Query, Piggy-Back Query. Kadangi kita tipai, kaip Error-Based Injection ir Execute Stored Procedures, neatsiskiria Text-to-SQL paradigmą, ToxicSQL frameworkas priorizuojas leidžiamas atvejus malicious payloads.",
+    "gauti_saltiniai": [
+      "duomenys\\2503.05445v2.pdf_puslapis_2",
+      "duomenys\\2502.04786v1.pdf_puslapis_0",
+      "duomenys\\2503.05445v2.pdf_puslapis_5"
+    ]
+  },
+  {
+    "klausimas": "Paaiškinkite, kaip techniškai veikia „buffer overflow“ (buferio perpildymo) ataka.",
+    "gautas_atsakymas": "Buffer overflow (buferio perpildymo) ataka yra tipas programos kodu (kodas) atakos, kuris pateikiamas į programos buferius (buferio), kuris yra išreikiamas dėl datos pateikimo. Buferis yra išreikiamas dėl to, kad programos kodas tiksliai nustatytas, kiek datos galima pateikti į buferį. Jei programos kodas nepatikslina ar nurodomas buferio velikis yra didesnis už datos ilgį, tai atakas galima įbukti, kad datos ilgis perpildys buferį. Rezultatas buferio perpildymo atakai yra, kad programos kodas galima būti išverta arba ištrinta, arba galima buvo išverta arba ištrinta kita programos kodas, kuris yra pateiktas buferio paskutiniais simboliais. Taisymas, jei programos kodas yra: int x[10]; int y; ir atakas pateikia 1000 int-ų, tai programos kodas galima būti išverta arba ištrinta, kad buferis x yra tik 10 int-ų ilgas. Techniškai, buferio perpildymo atakos yra veikiami apie 2 būslenis: Stack smashing: Buferio perpildymo atakos, kurie pateikiamas į programos stack (stakas), galima išverti arba ištrinti programos kodą, kuris yra pateiktas stack paskutiniais simboliais. Heap smashing: Buferio perpildymo atakos, kurie pateikiamas į programos heap (heapas), galima",
+    "gauti_saltiniai": [
+      "duomenys\\2505.10375v2.pdf_puslapis_9",
+      "duomenys\\2505.10375v2.pdf_puslapis_9",
+      "duomenys\\2504.07044v1.pdf_puslapis_3"
+    ]
+  },
+  {
+    "klausimas": "Kokios yra efektyviausios programavimo praktikos, padedančios išvengti SQL injection pažeidžiamumų?",
+    "gautas_atsakymas": "The proposed REAL (Real-time Evolutionary Algorithm for Learning) approach is an effective programming practice for generating secure SQL queries and preventing SQL injection attacks. It uses a real-time evolutionary algorithm to learn and optimize SQL queries, while ensuring security by adopting parameterized queries and enforcing explicit input sanitization. The hybrid reward system further guides the model to apply proper type conversion, resulting in high-quality, secure code and a seamless coding experience.",
+    "gauti_saltiniai": [
+      "duomenys\\2502.04786v1.pdf_puslapis_0",
+      "duomenys\\2503.05445v2.pdf_puslapis_2",
+      "duomenys\\2505.22704v1.pdf_puslapis_8"
+    ]
+  },
+  {
+    "klausimas": "Kokie yra pagrindiniai saugios programinės įrangos kūrimo ciklo (Secure SDLC) etapai?",
+    "gautas_atsakymas": "The text discusses the importance of securing software package supply chains and mentions several measures to minimize security risks, such as multi-stage builds, rigorous scanning tools, strict privilege settings, and runtime security. However, it does not explicitly list the specific stages of Secure SDLC (Secure Software Development Life Cycle) that address these concerns. To answer the question, the following stages of Secure SDLC are relevant to securing software package supply chains: Planning and Requirements: Identify and prioritize security requirements for the software project, including package management security. Design: Design the software architecture and package management system with security in mind, such as multi-stage builds and isolation techniques. Implementation: Write secure code and configure package management tools to enforce security policies, such as strict privilege settings and scanning tools. Testing: Test the software and package management system for vulnerabilities and weaknesses, including runtime security and container security. Deployment: Deploy the software and package management system securely, such as using secure communication channels and access control mechanisms.Maintenance: Regularly update and maintain the software and package management system to address new vulnerabilities and threats. Therefore, the pagrindiniai saugios programinės įrangos kūrimo ciklo etapai, kadangi pagrindiniai saugumai išsaugoti programinės paketų įrankis, yra Planing and Requirements, Design, Implementation, Testing, Deployment, ir Maintenance.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.22023v1.pdf_puslapis_1",
+      "duomenys\\2506.02043v1.pdf_puslapis_33",
+      "duomenys\\2505.22234v1.pdf_puslapis_26"
+    ]
+  },
+  {
+    "klausimas": "Kas yra „zero-day“ pažeidžiamumas?",
+    "gautas_atsakymas": "\"Zero-day\" pažeidžiamas yra kodas, sistemos nuskaitymasas ar programos elementas, kuris vartotojai neleidžiama, sistemos administratoriai ar įmonės tinklalapių valdymo sistemų vartotojai nežiniai, ir jis gali būti išlaidytas ar abužintas, kad neleidžia sistemos vartotojams atgal paskolyti ar ištrinti jį. Šis pažeidžiamas gali būti kodas, kuris leidžia nelegaliai veikla, atskiras įmonės sistemoms ar komputerams. Zero-day pažeidžiamas yra neidentifikuotas, nes sistemos administratoriai nežiniai, kad kodas yra nelegalas ar nežiniai, kad kodas yra pažeidžiamas. Taisyje, zero-day pažeidžiamas yra neidentifikuotas kodas, kuris gali būti išlaidytas ar abužintas, o zero-knowledge arguments yra matematikos ir informatikos terminas, kuris pateikiamas šio artikulo definicijose.",
+    "gauti_saltiniai": [
+      "duomenys\\2506.05903v1.pdf_puslapis_24",
+      "duomenys\\2505.11551v1.pdf_puslapis_26",
+      "duomenys\\2505.24289v1.pdf_puslapis_10"
+    ]
+  },
+  {
+    "klausimas": "Kas yra išpirkos reikalaujanti programinė įranga (ransomware) ir kokie yra jos plitimo būdai?",
+    "gautas_atsakymas": "Ransomware yra programinė įranga, kuris paskola paskolos sumas naudojantis paskolos veikla, paskolos veikla yra paskolos paskola arba paskolos įmonės. Ransomware yra duomenų paskolos veikla, kuris paskola duomenis, jei jie nebuvo saugomi, arba paskolos sumas, jei jie buvo saugomi. Ransomware yra kelios plitimo būdai, bet ypatingai yra dve juos: crypto-ransomware ir ransomware-as-a-service (RaaS). Crypto-ransomware paskolos duomenis ir paskolos sumas, o RaaS paskolos duomenis ir paskolos veikla. Crypto-ransomware yra taip pat galima iškviesti automatiškai, o RaaS reikia vietojinio veiklo.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.18613v1.pdf_puslapis_15",
+      "duomenys\\2505.18613v1.pdf_puslapis_0",
+      "duomenys\\2505.18613v1.pdf_puslapis_4"
+    ]
+  },
+  {
+    "klausimas": "Apibūdinkite pagrindinius „phishing“ (sukčiavimo apsimetant) atakos etapus nuo el. laiško išsiuntimo iki tikslo pasiekimo.",
+    "gautas_atsakymas": "In the context provided, the article \"A Gradient-Optimized TSK Fuzzy Framework for Explainable Phishing Detection\" discusses a novel phishing URL detection system based on a first-order TSK fuzzy inference model optimized through gradient-based techniques. The approach aims to address the gap in existing phishing detection methods that struggle to achieve high accuracy and explainability simultaneously. The article does not explicitly mention the specific steps of phishing attacks from email sending to the final click, but it focuses on detecting malicious URLs using a TSK fuzzy inference model.",
+    "gauti_saltiniai": [
+      "duomenys\\2506.03656v1.pdf_puslapis_44",
+      "duomenys\\2504.18636v1.pdf_puslapis_0",
+      "duomenys\\2504.18636v1.pdf_puslapis_13"
+    ]
+  },
+  {
+    "klausimas": "Kuo skiriasi statinė ir dinaminė kenkėjiškos programinės įrangos (malware) analizė?",
+    "gautas_atsakymas": "Taip, Shao-Huai Zhang, Cheng-Chung Kuo, ir Chu-Sing Yang (2019) didasina, kad statinė ir dinaminė kenkėjiškos programinės įrangos (malware) analizės metodai yra fakta. Statinė analizė pateikia informaciją apie failo struktūrą, kodą ir kodų elementus, atvejus iš visos failų paskolos. Dinaminė analizė, paskolis, pateikia informaciją apie failo veikimą ir interakcijų su sistemoje ir bentviškais įrenginimis.\n2.\tKontekstas: pitfall in malware research is the assumption that crawled applicationsareinherentlybenignwithoutpropervalidation.\n3.\tTo mitigate this issue, we verified the legitimacy of the\n4.\tgoodware samples by submitting their hashes to VirusTotal\n5.\tfor analysis. Only those samples that received zero detec-\n6.\ttions across all antivirus engines were retained, yielding a\n7.\trefineddatasetof2,696goodwaresamples.Finally,dynamic\n8.\tanalysis using the Cuckoo sandbox successfully processed\n9.\t2,550 samples, ensuring coverage across all 11 categories.\n10.\tIn this context, the researchers used both static and dynamic analysis methods to ensure accurate and reliable behavioral analysis of ransomware and benign software. They first verified the legitimacy of the goodware samples using VirusTotal, a malware scanning service, to ensure that they were not malicious. Then, they used dynamic analysis using the Cuckoo sandbox to observe the behavior of the software in a controlled environment and generate detailed reports. This approach helped them to accurately identify and analyze both ransomware and benign software.\n",
+    "gauti_saltiniai": [
+      "duomenys\\2505.18613v1.pdf_puslapis_16",
+      "duomenys\\2506.05074v1.pdf_puslapis_8",
+      "duomenys\\2505.21725v1.pdf_puslapis_1"
+    ]
+  },
+  {
+    "klausimas": "Kas yra kompiuterinis virusas ir kuo jis skiriasi nuo kirmino (worm)?",
+    "gautas_atsakymas": "Kompiuterinis virusas yra maltinis programos tipas, kuris negalima įjungti be nutylpintos vartotojo veidos. Virusas galima parodyti kaip programos failas, skriptas arba procesas. Virusas skiriasi nuo kirmino (worm) todel, kad worm yra tipas kompiuterinių infekcijų, kuris galima išsiparasti automatiškai, be vartotojo veidos. Wormas galima išsiparasti į kitas kompiuterius, išmokyti e-mailo, paskolos arba interneto paskyros. Virusas galima tikrinti ir pakeisti failus, procesus arba išsiparasti reikšmes, bet ne galima jos įjungti be vartotojo veidos.",
+    "gauti_saltiniai": [
+      "duomenys\\2504.14886v1.pdf_puslapis_10",
+      "duomenys\\2505.21725v1.pdf_puslapis_1",
+      "duomenys\\2505.22220v1.pdf_puslapis_12"
+    ]
+  },
+  {
+    "klausimas": "Paaiškinkite, kas yra „keylogger“ ir kokią grėsmę jis kelia.",
+    "gautas_atsakymas": "\"Keylogger\" yra maltinis programos tipas, kuris paskolinti komputerį, kad jis būtų rastas ir įrašytas visi klaviatūros nuskaitymasai. Tas pateikiamas visiems, kurie naudojant komputerį, kaip vadovėlis, kad būtų galima atkelti paslaptis, kodus ir kitas personalius duomenis. Šis tipas programos grėsmė yra atgaminti iš neetikos mokėjimų, identifikavimų ir draugija.",
+    "gauti_saltiniai": [
+      "duomenys\\2506.02043v1.pdf_puslapis_35",
+      "duomenys\\2502.06688v3.pdf_puslapis_36",
+      "duomenys\\2505.14162v2.pdf_puslapis_4"
+    ]
+  },
+  {
+    "klausimas": "Kokie yra 7 pagrindiniai duomenų apsaugos principai, apibrėžti GDPR (BDAR)?",
+    "gautas_atsakymas": "GDPR (General Data Protection Regulation) yra Europos Sąjungos 2016 m. maijio 27 d. išsaugotas datos apsaugos reikalavimai, kuriuose paskola Lietuvos Respublikos. Šie principai yra:\n1.\t1. Informacijos įmonės (IA) išsamiosios duomenų įrankiškumas (lawfulness, fairness, transparency).\n2.\t2. Duomenų prieigos (access) ir duomenų paskolos (correction, deletion, restriction).\n3.\t3. Duomenų kopijavimas (backups) ir duomenų migracija (portability).\n4.\t4. Duomenų įsigyti (security).\n5.\t5. Duomenų šalies (privacy).\n6.\t6. Duomenų įmonės (data protection officer).\n7.\t7. Duomenų įmonės (IA) atsakingumas (accountability).\n2.\tKadangi šie principai yra paskolos Lietuvos Respublikos, jie yra paskolos GDPR, kurią paskolos Europos Sąjungos išsaugoja.",
+    "gauti_saltiniai": [
+      "duomenys\\2504.06697v2.pdf_puslapis_14",
+      "duomenys\\2505.12640v2.pdf_puslapis_7",
+      "duomenys\\2505.22234v1.pdf_puslapis_21"
+    ]
+  },
+  {
+    "klausimas": "Paaiškinkite pagrindinį skirtumą tarp simetrinio ir asimetrinio šifravimo.",
+    "gautas_atsakymas": "Simetrinio šifravimo pagrindinis principas - šifravimas yra identičias arba yra galima atgal iššifravimas, tas pats šifrus gali būti panaudotas kaip šifrus kitais. Asimetrinio šifravimo pagrindinis principas - šifravimas yra unikalus ir negalima atgal iššifravimas su tosamės šifro panaudojimu. Simetrinio šifravimo panaudojimas leidžia sukurti tik vieną lygį, o asimetrinio šifravimo panaudojimas leidžia sukurti dvojišką lygį, kurią galima naudoti apibrėžti vieną partija (pateikėjas) ir kitą partiją (pranešėjas). Asimetrinio šifravimo panaudojimas yra būtina, kad galetumėte atsikartoti savo duomenis, nes šifras galės būti panaudotas tik vienam būdams. Pačiau, simetrinio šifravimo panaudojimas yra galima naudoti arba įvykdyti programos, arba įvykdyti šifravimą procesą į komputerį, kuris panaudojamas vienam būdams. Asimetrinio šifravimo panaudojimas yra būtinas, kad galetumėte atsikartoti savo duomenis, pvz., e-lelių slaptažodžių, interneto bankų slaptažodžių, arba kito personelių duomenis.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.11551v1.pdf_puslapis_26",
+      "duomenys\\2506.00659v1.pdf_puslapis_12",
+      "duomenys\\2411.11929v1.pdf_puslapis_19"
+    ]
+  },
+  {
+    "klausimas": "Kas yra „blockchain privacy“ ir kokius pagrindinius privatumo iššūkius bandoma spręsti viešosiose blokų grandinėse?",
+    "gautas_atsakymas": "\"Blockchain privacy\" yra funkcija, kuri palaikoma pateikti transakcijos vadovas privatumam, t.y. neleidžia visiems vartotojamis, kuriuose nėra transakcijos vadovas, matyti transakcijos detalės. Šis privatumas labai importans, kadangi transakcijos vadovai gali būti ne tik vartotojai, bet išorai, institucijos ar kitos organizacijos, kurių interesai ne sutinka. Šio privatumo iššūkus bandoma spręsti viešosiose blokų grandinėse, pvz., transakcijos informacijos nebūna matyti visiems vartotojams, tik tik taisymingais vartotojais, arba tik vartotojams, kuriuose transakcijos yra paskolos. Šio privatumo iššūkus yra realiai importančiai, kadangi vartotojai gali būti ne tik vartotojai, bet išorai, institucijos ar kitos organizacijos, kurių interesai ne sutinka. Šio privatumo iššūkai būtinai bandomi spręsti viešosiose blokų grandinėse, kad būtų galima atspindinti transakcijų procesus, kadangi vartotojai gali būti ne tik vartotojai, bet išorai, institucijos ar kitos organizacijos, kurių interesai ne sutinka.\n2.\tPaskolos:\n1.\t1. Hyperledger Fabric - blockchain platform, which facilitates the utilization of private data within a channel, which is not visible to other participants.\n2.\t2. Sidechain - a blockchain that is connected to a main blockchain, allowing for cost efficiency and privacy enhancement.\n3.\t3. BlockFW - a blockchain",
+    "gauti_saltiniai": [
+      "duomenys\\2505.24309v1.pdf_puslapis_17",
+      "duomenys\\2505.24309v1.pdf_puslapis_120",
+      "duomenys\\2303.13073v1.pdf_puslapis_1"
+    ]
+  },
+  {
+    "klausimas": "Kas yra „druskos“ (salt) naudojimas slaptažodžių maišos (hashing) procese ir kodėl jis svarbus?",
+    "gautas_atsakymas": "Polyglotai yra generuojami apie web security, kad būtų galima įvertinti XSS (Cross-Site Scripting) užrakstinės vulnerijos backend kodėlėse. Šios generacijos metodas yra flexibus, taip pat galima išskydyti konkrečias užrakstinės vulnerijos ar baigti daugiau testų, kad būtų versliniškai instrumentas į web security. Šis metodas galima tikslai investiguoti public-to-internal flows (publikos-į-interne) backend kodėlėse, bet galima būti \"Swiss-army-knife\" (švicaras keliautinas) į viską web application vulnerability assessment (valdymo ap",
+    "gauti_saltiniai": [
+      "duomenys\\2502.08467v1.pdf_puslapis_13",
+      "duomenys\\2505.24309v1.pdf_puslapis_124",
+      "duomenys\\2412.06391v1.pdf_puslapis_37"
+    ]
+  },
+  {
+    "klausimas": "Apibrėžkite, kas yra skaitmeninis parašas ir kokias tris saugumo savybes jis užtikrina.",
+    "gautas_atsakymas": "Skaitmeninis parašas yra tekstas, kuris sūrina tik skaitmenis. Tas paskolos tris saugumo savybes:\n1.\t1. Numeracija: Skaitmeniniai parašai leidžia naudoti skaitmenis, kad būtų matomai ir konkretai.\n2.\t2. Efektyvumas: Skaitmeniniai parašai leidžia nuskaityti informaciją efektyvamai, nebulvėdžiantas išlaidai.\n3.\t3. Precizas: Skaitmeniniai parašai leidžia būti preciziai, nebulvėdžiantas išlaidai, kad angliškai tai paskola \"accuracy\".\n2.\tPaskolos pateikiamas kontekste, kuris yra naujausia ir moderna technologijų ir informacijos naujienų žurnalas, ir yra pateiktas tekstas apie naujus technologijas ir informacijos naujienas. Skaitmeniniai parašai yra pateikti, kad būtų matomi ir konkretai, kaip yra naujieji technologijos ir kaip jie buvo išlaidytos, kaip yra naujieji statistikos duomenys ir kaip jie buvo išlaidytos, kaip yra naujieji naujienos ir kaip jie buvo išlaidytos, ir t.t. Tas pateikiamas kontekste leidžia naudoti skaitmeniniai parašai efektyvamai, nebulvėdžiantas išlaidai, kad būtų matomi ir precizai informacijos.",
+    "gauti_saltiniai": [
+      "duomenys\\2410.14924v1.pdf_puslapis_5",
+      "duomenys\\2504.21049v1.pdf_puslapis_3",
+      "duomenys\\2505.12445v1.pdf_puslapis_4"
+    ]
+  }
+]

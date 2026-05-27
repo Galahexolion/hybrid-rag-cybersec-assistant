@@ -1,0 +1,257 @@
+[
+  {
+    "klausimas": "Kas yra DDoS (Distributed Denial-of-Service) ataka ir koks jos pagrindinis tikslas?",
+    "gautas_atsakymas": "DDoS (Distributed Denial-of-Service) ataka yra kompjuterinė atakos forma, kurio metodas yra nusipirkti sistemą arba tinklalapiją išmokymui, reikalingą ją nepaslauginti. Jis reikalų dažniausias komputerius, kurių vardyklaipai sutinka iš visų pačių, kad būtų sukeltas masyvas traukimas, kuris neleidžia sistema arba tinklalapis paslauginti. Jis gali būti sugestuotas cyberkriminalais ar hacktivistams, o ji visada reikia finansinių pierīginimų, reputacijos škodos ir kritines infrastrukturos nepavykojimų. Kaip DDoS atakos lygnavančiai veikia, tai yra labai įvykdytas problema identifikavimo ir apibrėžimo. DDoS atakai galima atakinti medijas, universitetus, online tinklalapius, finansinius industrijas ir valdymo serverys, bet mažos bendrosi yra taip pat atrastos risiko. Šiame rinkme šio metodo paskola buvo susikurtas efektyvus real-time DDoS atakų detekcijos sistema, naudojantis masinos grąpės algoritmas. Vairūs klasifikatoriai buvo naudojami klasifikuoti DDoS ir nedidlingos traukimus. Preprocesingas procesas užimamas duomenis valdymą, standardizaciją ir funkcionalų atribūtų selekciją su PCU metodu. Rezultatai pateikia, kad RF, AdaBoost ir XGBoost leidžia daugiau akuratų ir efektyvų detekcijas ir mitigacijas",
+    "gauti_saltiniai": [
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2501.14311v1.pdf",
+      "duomenys\\2501.14311v1.pdf",
+      "duomenys\\2501.14311v1.pdf",
+      "duomenys\\2503.05477v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2501.14311v1.pdf",
+      "duomenys\\2503.17867v1.pdf"
+    ],
+    "trukme_sek": 470.18
+  },
+  {
+    "klausimas": "Kokios yra pagrindinės strategijos ir technologijos, naudojamos apsisaugoti nuo DDoS atakų?",
+    "gautas_atsakymas": "The primary strategies and technologies used to defend against DDoS attacks include:\n\n1. Traffic filtering: Filtering out malicious traffic based on predefined rules or signatures.\n2. Load balancing: Distributing incoming traffic across multiple servers to prevent any one server from being overwhelmed.\n3. Rate limiting: Limiting the rate at which traffic is allowed to reach a server to prevent it from being overloaded.\n4. Content Delivery Networks (CDNs): Distributing content across multiple servers to reduce the load on individual servers and improve response times.\n5. Application-level defenses: Protecting applications from specific types of DDoS attacks, such as SQL injection or cross-site scripting attacks.\n6. Behavioral analysis: Identifying and blocking anomalous behavior, such as unusual traffic patterns or user activity.\n7. Machine learning algorithms: Classifying traffic as DDoS or non-DDoS based on historical data and identifying patterns and trends.\n8. Cloud-based solutions: Using cloud services to absorb and mitigate DDoS attacks, allowing organizations to focus on their core business functions.\n\nThese strategies and technologies can be combined to provide robust protection against DDoS attacks. However, it's essential to keep in mind that no solution is foolproof, and new attack techniques are constantly emerging, so ongoing monitoring and updating of defenses is necessary.",
+    "gauti_saltiniai": [
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2501.14311v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2501.14311v1.pdf",
+      "duomenys\\2501.14311v1.pdf",
+      "duomenys\\2503.22710v1.pdf",
+      "duomenys\\2503.17867v1.pdf",
+      "duomenys\\2502.06688v3.pdf",
+      "duomenys\\2412.20154v1.pdf"
+    ],
+    "trukme_sek": 238.05
+  },
+  {
+    "klausimas": "Palyginkite „stateless“ ir „stateful“ ugniasienės (firewall) veikimo principus.",
+    "gautas_atsakymas": "Stateless and stateful firewalls are two types of firewall mechanisms that operate differently based on the context of network traffic.\n\nA stateless firewall inspects individual packets without keeping track of the context or state of the connection. It makes decisions based solely on the information contained within each packet, such as source and destination IP addresses, ports, and protocol. Stateless firewalls are simpler and faster than stateful firewalls but cannot provide advanced filtering capabilities, such as handling sessions or maintaining application-level proxies.\n\nOn the other hand, a stateful firewall maintains a table of active connections and keeps track of the state of each connection. It considers the entire context of a connection, including the sequence of packets and their relationship to each other. Stateful firewalls offer more advanced filtering capabilities, such as deep packet inspection, session persistence, and application-level filtering. However, they are more complex and resource-intensive than stateless firewalls.",
+    "gauti_saltiniai": [
+      "duomenys\\2205.04210v1.pdf",
+      "duomenys\\2205.04210v1.pdf",
+      "duomenys\\2205.04210v1.pdf",
+      "duomenys\\2505.22220v1.pdf",
+      "duomenys\\2503.02018v1.pdf",
+      "duomenys\\2506.05356v1.pdf",
+      "duomenys\\2505.01436v1.pdf",
+      "duomenys\\2502.06688v3.pdf",
+      "duomenys\\2212.03645v1.pdf",
+      "duomenys\\2505.01436v1.pdf"
+    ],
+    "trukme_sek": 182.34
+  },
+  {
+    "klausimas": "Kokie yra pagrindiniai VPN protokolų tipai (pvz., OpenVPN, IPsec) ir kokie jų privalumai bei trūkumai?",
+    "gautas_atsakymas": "The primary VPN protocol types include OpenVPN and IPsec. OpenVPN uses the OpenSSL cryptographic library for strong security over a Secure Socket Layer (SSL) using standard algorithms such as Advanced Encryption Standard (AES), Blowfish, or Triple DES (3DES). It also supports various transport protocols like UDP and TCP. On the other hand, IPsec is a suite of protocols responsible for securing IP communications by encrypting and authenticating packets. Its main components are Authentication Header (AH) and Encapsulating Security Payload (ESP). Both protocols have their advantages and disadvantages regarding performance, security, and ease of implementation.",
+    "gauti_saltiniai": [
+      "duomenys\\2502.20589v1.pdf",
+      "duomenys\\2504.19069v1.pdf",
+      "duomenys\\2504.19069v1.pdf",
+      "duomenys\\2406.13017v1.pdf",
+      "duomenys\\2410.08737v1.pdf",
+      "duomenys\\2410.08737v1.pdf",
+      "duomenys\\2504.19069v1.pdf",
+      "duomenys\\2504.19069v1.pdf",
+      "duomenys\\2411.16518v1.pdf",
+      "duomenys\\2410.08737v1.pdf"
+    ],
+    "trukme_sek": 137.36
+  },
+  {
+    "klausimas": "Apibūdinkite įsilaužimų aptikimo sistemos (Intrusion Detection System - IDS) vaidmenį tinklo saugumo architektūroje.",
+    "gautas_atsakymas": "An Intrusion Detection System (IDS) is a crucial component in network security that monitors network traffic to detect and prevent unauthorized access or malicious activities. IDS uses machine learning algorithms, specifically classification algorithms, to learn normal behavior patterns and identify anomalies indicative of potential attacks. In recent years, the integration of deep learning (DL) techniques into IDS has led to significant advancements due to their ability to generalize and detect previously unknown intrusions.\n\nFrom the perspective of DL, this survey covers all stages of DL-based IDS, including data collection, log storage, log parsing, graph summarization, attack detection, and attack investigation. The survey also discusses the challenges and emerging trends in DL-IDS research. Additionally, it provides an overview of publicly available datasets for stimulating future research.\n\nHere's a brief explanation of each stage in the context of DL-based IDS:\n\n1. Data Collection: Collecting relevant data from various sources, such as network traffic logs, system logs, and user behavior logs, is essential for training and testing DL-IDS models.\n\n2. Log Storage: Storing large volumes of data efficiently and securely is necessary for effective DL-IDS performance.\n\n3. Log Parsing: Preprocessing raw data into structured formats suitable for DL algorithms is an important step in DL-IDS.\n\n4. Graph Summarization: Representing complex relationships between data points as graphs and summarizing them effectively can improve DL-IDS accuracy and efficiency.\n\n5. Attack Detection: Identifying intrusions using DL algorithms involves analyzing patterns and anomalies in the data to distinguish between normal and malicious activities.\n\n6. Attack Investigation: Once an intrusion is detected, investigating its source, extent, and impact is crucial for mitigating damage and preventing future occurrences.",
+    "gauti_saltiniai": [
+      "duomenys\\2502.03614v1.pdf",
+      "duomenys\\2504.07839v2.pdf",
+      "duomenys\\2502.06688v3.pdf",
+      "duomenys\\2504.07839v2.pdf",
+      "duomenys\\2504.07839v2.pdf",
+      "duomenys\\2505.16215v1.pdf",
+      "duomenys\\2505.11551v1.pdf",
+      "duomenys\\2504.07839v2.pdf",
+      "duomenys\\2505.11551v1.pdf",
+      "duomenys\\2506.07480v1.pdf"
+    ],
+    "trukme_sek": 309.84
+  },
+  {
+    "klausimas": "Kokie yra pagrindiniai SQL injection atakos tipai?",
+    "gautas_atsakymas": "The four fundamental forms of SQL injection are: Tautology Injection, Illegal Incorrect Query, Union Query, and Piggy-Back Query. These forms allow attackers to extract additional data, execute administrative actions, and even compromise entire database systems. Other types of SQL injection can be derived from these fundamental forms. For example, an arbitrary injection statement aimed at extracting additional data (such as UNION and INTERSECT clauses) satisfies certain conditions and can be achieved through either Tautology Injection or Illegal Incorrect Query. From the perspective of backdoor design, attackers can embed any injection statement, such as INSERT or CREATE clause, allowing them to achieve intended actions through Piggy-Back Query. Some types of SQL injection, such as Error-Based Injection and Execute Stored Procedures, cannot be executed due to their lack of stealthiness within the Text-to-SQL paradigm.",
+    "gauti_saltiniai": [
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2502.04786v1.pdf",
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2505.22704v1.pdf",
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2502.04786v1.pdf",
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2502.12497v1.pdf",
+      "duomenys\\2502.04786v1.pdf"
+    ],
+    "trukme_sek": 181.85
+  },
+  {
+    "klausimas": "Paaiškinkite, kaip techniškai veikia „buffer overflow“ (buferio perpildymo) ataka.",
+    "gautas_atsakymas": "\"Buffer overflow\" (buferio perpildymo) atakais taip patikis, kada atakėjas sukuria neteisingus inputus, kurie yra geriausiai nežymėti limitojimais ar inspekcijomis sistemos tarpu programai. Šis tipas atakų rezultatu buvo, kad duomenys, kuri bus įrašomi iš inputu į buferią, paspaudžia iš sigulos, atnaujina savo susitikimą su savo priekšu ir paskutiniai duomenys, kuri yra buferiuose. Tas paskutiniai duomenys yra galima atspindinti programos klaidos ar baigiamas veiksmas. Michael Hooper et al. [11] atspindėjo buferio perpildymo ataką į Parrot Bebop 2 drono sistema. Šis sistema naudojasi ARDiscovery protokolo, kuris sukuria atvirkščią wi-fi ryšį tarp drono ir kontroleri (smartphonai), o šios sistemos autoriai nesukuria inspekciją JSON rekordų laukų ilgumui. Autorai paskolėjo navigacijos įmonėjai UAV, kurio drono komanda būtų padidinta character ilgumu, o UAV baigėjo veikti.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.10375v2.pdf",
+      "duomenys\\2504.07044v1.pdf",
+      "duomenys\\2412.06391v1.pdf",
+      "duomenys\\2504.07044v1.pdf",
+      "duomenys\\2411.07741v2.pdf",
+      "duomenys\\2411.16518v1.pdf",
+      "duomenys\\2411.16518v1.pdf",
+      "duomenys\\2505.12445v1.pdf",
+      "duomenys\\2505.22220v1.pdf",
+      "duomenys\\2411.10855v2.pdf"
+    ],
+    "trukme_sek": 313.42
+  },
+  {
+    "klausimas": "Kokios yra efektyviausios programavimo praktikos, padedančios išvengti SQL injection pažeidžiamumų?",
+    "gautas_atsakymas": "The text describes a research paper that proposes using generative models to enhance SQL injection detection and prevention mechanisms. The researchers incorporate Variational Autoencoders (VAE), Conditional Wasserstein GAN with Gradient Penalty (CWGAN-GP), and U-Net to generate synthetic SQL queries and augment training datasets for machine learning models. The proposed method demonstrated improved accuracy in SQLi detection systems by reducing both false positives and false negatives and the ability to adapt to evolving SQLi attack patterns.\n\nEffective programming practices to prevent SQL injection vulnerabilities include:\n\n1. Parameterized queries: Using placeholders in SQL queries and safely injecting user inputs through provided parameters, which automatically handles escaping and prevents injection attacks.\n2. Input validation: Validating user inputs before they are used in SQL queries to ensure they meet expected formats and data types.\n3. Prepared statements: Preparing SQL statements separately from user inputs to prevent SQL injection attacks.\n4. Least privilege: Granting users the least privilege necessary to perform their tasks, minimizing the potential impact of a successful SQL injection attack.\n5. Regular updates: Keeping software up-to-date with the latest security patches and updates to address known vulnerabilities.\n6. Code reviews: Conducting regular code reviews to identify and address potential SQL injection vulnerabilities.\n7. Education and awareness: Educating developers and users about SQL injection vulnerabilities and best practices for preventing them.",
+    "gauti_saltiniai": [
+      "duomenys\\2502.04786v1.pdf",
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2505.22704v1.pdf",
+      "duomenys\\2505.22704v1.pdf",
+      "duomenys\\2502.04786v1.pdf",
+      "duomenys\\2502.04786v1.pdf",
+      "duomenys\\2503.05445v2.pdf",
+      "duomenys\\2502.04786v1.pdf",
+      "duomenys\\2505.22704v1.pdf",
+      "duomenys\\2503.05445v2.pdf"
+    ],
+    "trukme_sek": 247.4
+  },
+  {
+    "klausimas": "Kokie yra pagrindiniai saugios programinės įrangos kūrimo ciklo (Secure SDLC) etapai?",
+    "gautas_atsakymas": "The secure software development lifecycle (Secure SDLC) consists of several key stages to ensure the reliability and resilience of software applications. These stages include:\n\n1. Planning and Requirements: Establishing security policies, defining security requirements, and incorporating security considerations into project planning.\n2. Design and Architecture: Creating secure designs, implementing security features, and addressing potential vulnerabilities during the design phase.\n3. Development and Coding: Writing secure code, following coding standards, and integrating security testing tools.\n4. Testing and Verification: Performing thorough testing, identifying vulnerabilities, and addressing them before deployment.\n5. Deployment and Operations: Ensuring secure configurations, implementing access controls, and continuously monitoring the system for security threats.\n6. Maintenance and Upgrades: Regularly updating software components, applying patches, and addressing newly discovered vulnerabilities.\n\nThese stages help ensure that security is integrated throughout the entire software development process, reducing the risk of vulnerabilities and improving overall system security.",
+    "gauti_saltiniai": [
+      "duomenys\\2505.22023v1.pdf",
+      "duomenys\\2506.02043v1.pdf",
+      "duomenys\\2505.22234v1.pdf",
+      "duomenys\\2412.17352v1.pdf",
+      "duomenys\\2506.02043v1.pdf",
+      "duomenys\\2407.15984v1.pdf",
+      "duomenys\\2505.23792v1.pdf",
+      "duomenys\\2505.22220v1.pdf",
+      "duomenys\\2504.06697v2.pdf",
+      "duomenys\\2411.16518v1.pdf"
+    ],
+    "trukme_sek": 181.87
+  },
+  {
+    "klausimas": "Kas yra „zero-day“ pažeidžiamumas?",
+    "gautas_atsakymas": "\"Zero-day\" pažeidžiamumas yra neįgaliętos visiems ir didelės sistemos nusipirktos lūpų, kurios galima abuzeinti ar neigiamosios reikalavimos, arba atlikti kitas neigiamas veiksmas. Taip pat yra neįgalięta visiems sistemoms identifikavimo ir atliekimo metodams. Taisymas: \"zero-day\" pažeidžiamumas yra savo vardas, bet nežinomas visiems, kas jis negalvo darom arba kaip jis atliko tas paskolos. (Angl. \"zero-day exploit\")",
+    "gauti_saltiniai": [
+      "duomenys\\2506.05903v1.pdf",
+      "duomenys\\2505.11551v1.pdf",
+      "duomenys\\2505.24289v1.pdf",
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2504.14886v1.pdf",
+      "duomenys\\2410.14924v1.pdf",
+      "duomenys\\2505.22940v1.pdf",
+      "duomenys\\2506.04260v1.pdf",
+      "duomenys\\2505.22940v1.pdf",
+      "duomenys\\2505.21725v1.pdf"
+    ],
+    "trukme_sek": 162.12
+  },
+  {
+    "klausimas": "Kas yra išpirkos reikalaujanti programinė įranga (ransomware) ir kokie yra jos plitimo būdai?",
+    "gautas_atsakymas": "Išpirkos reikalaujanti programinė įranga, kaip ransomware, yra malinė įranga, kuris išsamiausiame pačių galimybėmis uždraudžia visą vartotojo duomenis ar baigiamas sistema. Ransomware yra dalis iš malwarija, kuris paskola vartotojui, kad jis turi užsipildyti nusipirktos numatos arba atlikti kitas veiksmus, jei norėtis grąžinti duomenis arba palauti funkcionalumą iš sistemos. Ransomware yra labai verslinoji ir labai evoliuvoja, tačiau jis gali būti labai šaltinis ir negalima identifikuoti naudojant konvenčinalius metodus.\n\nPlitimo būdai ransomware'o yra:\n\n1. Encryption-based ransomware: Šis tipas ransomware paskola vartotojui, kad jis turi užsipildyti numato, kad būtų leidžiamas grąžinti originalius duomenis po šifravimo.\n2. Locker-type ransomware: Šis tipas ransomware blokejuos visas sistemos funkcijas, tačiau ne šifruoja failus. Vartotojui turi užsipildyti numato, kad būtų leidžiamas grąžinti sistemos kontrolę.\n3. Hybrid ransomware: Šis tipas ransomware kombinuoja encryption-based ir locker-type technologijas.\n\nRansomware'o detekavimas yra labai įsigytas procesas, tačiau dažnai naujos technologijų ir metodų buvo pateikta, kad angavo leidimą identifikuoti ransomware. Konvencionalios metodai yra",
+    "gauti_saltiniai": [
+      "duomenys\\2505.18613v1.pdf",
+      "duomenys\\2505.18613v1.pdf",
+      "duomenys\\2505.18613v1.pdf",
+      "duomenys\\2502.08843v1.pdf",
+      "duomenys\\2504.14162v1.pdf",
+      "duomenys\\2505.18613v1.pdf",
+      "duomenys\\2504.14886v1.pdf",
+      "duomenys\\2502.08843v1.pdf",
+      "duomenys\\2504.20681v1.pdf",
+      "duomenys\\2505.18613v1.pdf"
+    ],
+    "trukme_sek": 411.14
+  },
+  {
+    "klausimas": "Apibūdinkite pagrindinius „phishing“ (sukčiavimo apsimetant) atakos etapus nuo el. laiško išsiuntimo iki tikslo pasiekimo.",
+    "gautas_atsakymas": "The text discusses various studies and approaches related to phishing detection in Ethereum networks using machine learning algorithms. It highlights the importance of understanding the vulnerabilities of these models to adversarial attacks and developing robust and dependable systems. One study, \"Fishing for Phishers: Learning-Based Phishing Detection in Ethereum Transactions,\" compares implicit features for phishing and benign nodes and identifies notable differences. In the context of your question, the steps involved in a phishing attack from email sending to the final scam are not explicitly mentioned in the provided text. However, it does mention that phishing involves an adversary posing as an honest user to deceive benign users into revealing sensitive information or transferring funds.",
+    "gauti_saltiniai": [
+      "duomenys\\2506.03656v1.pdf",
+      "duomenys\\2504.18636v1.pdf",
+      "duomenys\\2504.18636v1.pdf",
+      "duomenys\\2504.21049v1.pdf",
+      "duomenys\\2504.18636v1.pdf",
+      "duomenys\\2504.17953v1.pdf",
+      "duomenys\\2504.17953v1.pdf",
+      "duomenys\\2504.17684v1.pdf",
+      "duomenys\\2504.17684v1.pdf",
+      "duomenys\\2504.17953v1.pdf"
+    ],
+    "trukme_sek": 142.4
+  },
+  {
+    "klausimas": "Kuo skiriasi statinė ir dinaminė kenkėjiškos programinės įrangos (malware) analizė?",
+    "gautas_atsakymas": "Kuo skiriasi statinė ir dinaminė kenkėjiškos programinės įrangos (malware) analizę, tai yra taisyklinti būdas išvesti malware's nuskaitymas, nusiprasymas ir galimas risks. Beveikios gynybos teisėjai galima identifikuoti malware's būnas, sukurti pasinaudojas apibrėžimas ir užpildyti savo apsaugos sistemas iš malware's studijos. Malware analizės technikas yra du kategorijos:\n\n1. Statinė analizė: Statinė analizė yra malware's kodą peržiūrėti, bet ne leidžiantis jis veikti nepritaikomos veiklos. Statinė analizės metodai yra, pwayla, dekompiliavimas, hex rasti, string rasti ir t.t. Statinė analizė yra labai efektyvus ir gyvenamasis metodas, bet jis ne leidžia išsampti dinaminių veiksmų, kaip pavyzdžiui, viršumo komunikacijas ar kitas interakcijas su sistemojo vaidmenims.\n2. Dinaminė analizė: Dinaminė analizė yra malware's veikimas leidžiamas veikti, o statyje leidžiamas monitoriuoti jos veikimą ir išsampti rezultatus. Dinaminė analizės metodai yra, pwayla, sandboxing, debugging ir t.t. Dinaminė analizė yra labai efektyvus, kadangi jis leidžia išsampti malware's veikimą ir interakcijas su sistemojo vaidmenims, bet jis yra labai riskins, nes jis leidžia malware'iui",
+    "gauti_saltiniai": [
+      "duomenys\\2505.18613v1.pdf",
+      "duomenys\\2506.05074v1.pdf",
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2505.22220v1.pdf",
+      "duomenys\\2504.14886v1.pdf",
+      "duomenys\\2506.07372v1.pdf",
+      "duomenys\\2506.01412v1.pdf",
+      "duomenys\\2506.01412v1.pdf",
+      "duomenys\\2505.18551v1.pdf",
+      "duomenys\\2505.24231v1.pdf"
+    ],
+    "trukme_sek": 445.61
+  },
+  {
+    "klausimas": "Kas yra kompiuterinis virusas ir kuo jis skiriasi nuo kirmino (worm)?",
+    "gautas_atsakymas": "Reikalingas atsakymas: Kompiuterinis virusas yra maltinis programos tipas, kuris netinkama būti naudojamas, o worm yra tipas maltųjų programų, kurios priešingas veikia apie duomenis šifravimo ir atsižvelgimo procesus. Wormas nėra tik nekintamos sistemos, bet priešingai išplėstina visą internetinę tinklapį arba visą kompiuterinę tinklalapį. Virusas skiriasi nuo wormas, jo viruso veikla priečius sistemos funkcionalumui, o wormas veikia apie duomenis šifravimas ir atsižvelgimas, bet ne priešingiai išplėstina sistema funkcionalumą.",
+    "gauti_saltiniai": [
+      "duomenys\\2504.14886v1.pdf",
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2505.22220v1.pdf",
+      "duomenys\\2506.02660v1.pdf",
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2505.18613v1.pdf",
+      "duomenys\\2505.18551v1.pdf",
+      "duomenys\\2505.18551v1.pdf",
+      "duomenys\\2506.00659v1.pdf"
+    ],
+    "trukme_sek": 189.57
+  },
+  {
+    "klausimas": "Paaiškinkite, kas yra „keylogger“ ir kokią grėsmę jis kelia.",
+    "gautas_atsakymas": "A \"keylogger\" is a type of malware or malicious software that records every keystroke made on an infected computer or device. Its primary goal is to capture sensitive information such as passwords, login credentials, and other confidential data by logging and storing the keys pressed on the keyboard. This information can then be transmitted to the attacker for unauthorized use.",
+    "gauti_saltiniai": [
+      "duomenys\\2506.02043v1.pdf",
+      "duomenys\\2502.06688v3.pdf",
+      "duomenys\\2505.14162v2.pdf",
+      "duomenys\\2505.21725v1.pdf",
+      "duomenys\\2502.08576v2.pdf",
+      "duomenys\\2505.22220v1.pdf",
+      "duomenys\\2505.18613v1.pdf",
+      "duomenys\\2505.14162v2.pdf",
+      "duomenys\\2505.22234v1.pdf",
+      "duomenys\\2504.06697v2.pdf"
+    ],
+    "trukme_sek": 70.73
+  }
+]
