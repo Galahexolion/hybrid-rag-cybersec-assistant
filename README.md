@@ -56,7 +56,7 @@
 
 ### 1. Duomenų paruošimas
 Sukurkite aplanką (numatytasis kelias nurodytas `config.py`) ir į jį įkelkite:
-* PDF formato dokumentus (mokslinius straipsnius, ataskaitas).
+* PDF formato dokumentus (mokslinius straipsnius, ataskaitas). Atsisiųskite duomenų rinkinį iš čia: [https://drive.google.com/drive/folders/1MJu6WEIjgkdzTVElGRQg18yIZAvLrxbG?usp=sharing]
 * `cve_data.json` failą su struktūrizuotais CVE įrašais.
 
 ### 2. Vektorinės duomenų bazės sukūrimas
